@@ -17,6 +17,8 @@ def write_notes(notes):
 
 # New
 
+# Other branch
+
 def add_note():
     """Добавляет новую заметку."""
     note = input("Введите текст заметки: ") + "\n"
