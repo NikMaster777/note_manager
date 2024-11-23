@@ -15,6 +15,8 @@ def write_notes(notes):
     with open(NOTES_FILE, "w", encoding="utf-8") as file:
         file.writelines(notes)
 
+# New
+
 def add_note():
     """Добавляет новую заметку."""
     note = input("Введите текст заметки: ") + "\n"
